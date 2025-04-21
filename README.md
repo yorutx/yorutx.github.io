@@ -1,13 +1,6 @@
-# 🎯 CAWEB Starter Challenge pour mini Marie
+# 🎯 WEB Challenge
 
-Salut bébé chat ! Bienvenue dans ton premier défi web !  
-Tu vas créer un petit site vitrine type crunchyroll en partant de zéro, en suivant des objectifs concrets comme en agence web.
-
----
-
-## 📌 Objectif final
-
-Créer un site vitrine responsive en HTML/CSS/JS avec une maquette Figma, une organisation Trello (ou Notion), et un repo Git bien propre.
+Créer un site vitrine responsive en HTML/CSS/JS avec une maquette Figma (si possible), une organisation Trello (ou Notion), et un repo Git.
 
 ---
 
@@ -15,35 +8,35 @@ Créer un site vitrine responsive en HTML/CSS/JS avec une maquette Figma, une or
 
 ### 1. Organisation
 
-- [ ] Crée un tableau Trello (ou Notion) pour gérer les tâches
-- [ ] Ajoute une colonne "À faire / En cours / Terminé"
-- [ ] Ajoute des bon tickets avec une bonne déscriptions.
+- [ ] Créer un tableau Trello (ou Notion) pour gérer les tâches
+- [ ] Ajouter une colonne "À faire / En cours / Terminé"
+- [ ] Ajouter des bon tickets avec une bonne déscriptions.
 
 ### 2. Design
 
-- [ ] Crée une maquette sur **Figma**
-- [ ] Inspire toi du site de Crunchyroll
+- [ ] Créer une maquette sur **Figma**
+- [ ] Inspiré du site de Crunchyroll
 - [ ] Responsive
 
 ### 3. Code
 
-- [ ] Crée le site avec **HTML/CSS**
-- [ ] Utilise **Flexbox ou CSS Grid**
-- [ ] Ajoute un peu de **JavaScript** (pour des effets cool)
-- [ ] Rends le site responsive (tu peux tester avec dev tools du navigateur)
+- [ ] Créer le site avec **HTML/CSS**
+- [ ] Utiliser **Flexbox ou CSS Grid**
+- [ ] Ajouter un peu de **JavaScript** 
+- [ ] Rendre le site responsive (dev tools du navigateur)
 
 ### 4. Git
 
-- [ ] Initialise un repo Git
+- [ ] Initialiser un repo Git
 - [ ] Commits réguliers avec messages clairs
-- [ ] Pousse le projet sur GitHub
+- [ ] Pousser le projet sur GitHub
 
 ### 5. Bonus
 
-- [ ] Ajoute un formulaire (même non fonctionnel)
-- [ ] Customise les polices avec Google Fonts
-- [ ] Ajoute une favicon
-- [ ] Je souhaite aussi voir les affiches d'anime grossir quand ma souris passe dessus (c'est cool j'adore)
+- [ ] Ajouter un formulaire (même non fonctionnel)
+- [ ] Customiser les polices avec Google Fonts
+- [ ] Ajouter une favicon
+- [ ] les affiches d'anime grossissent quand ma souris passe dessus 
 
 ---
 
@@ -59,14 +52,3 @@ Créer un site vitrine responsive en HTML/CSS/JS avec une maquette Figma, une or
 - [Figma Starter](https://help.figma.com/)
 - [GitHub Pages tuto](https://pages.github.com/)
 - [Trello template simple](https://trello.com/templates) (ou Notion)
-
----
-
-## 📝 Livrables attendus
-
-- Lien Figma
-- Lien Trello (ou Notion)
-- Lien GitHub
-- Lien vers le site en ligne (si possible)
-
-
