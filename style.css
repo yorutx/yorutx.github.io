@@ -63,7 +63,7 @@ body {
 }
 
 header {
-  background-color: #660404;
+  background-color: #0c0c0c;
   display: flex;
   align-items: center;
   padding: 10px 30px;
@@ -174,4 +174,47 @@ footer {
 @keyframes rotate {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.star {
+  margin: 0 2px;
+}
+
+.anime-overview {
+  padding: 40px 30px;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+}
+
+.anime-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* aligne le haut de l’image et du texte */
+  color: white;
+}
+
+.anime-mainpic img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.anime-info {
+  margin-left: 1cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.anime-info h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.8em;
+}
+
+.star-rating-static {
+  font-size: 2rem;
+  color: gold;
+  pointer-events: none;
 }
