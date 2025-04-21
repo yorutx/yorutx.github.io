@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>YokoFilms</title>
   <link rel="stylesheet" href="../style.css">
-
+  
 </head>
 <body>
   <div id="loader">
@@ -25,33 +25,35 @@
       <a href="../index.html">Accueil</a>
       <a href="Séries.html">Séries</a>
       <a href="films.html">Films</a>
-      <a href="pourjuju.html">Simulcasts</a>
     </nav>
   </header>
 
-  <section class="anime-section">
-    <h2>Catalogue séries</h2>
-    <div class="anime-grid">
-      <div class="anime-card">
-        <a href="arcane.html"><img src="../Images\Arcane 1.jpeg" alt="Arcane"></a>
-        <h3>Arcane</h3>
+  <section class="anime-overview">
+    <div class="anime-block">
+      <div class="anime-mainpic">
+        <img src="../Images/Laligneverte 1.jpg" alt="Arcane">
       </div>
-      <div class="anime-card">
-        <img src="../Images\SonnyBoy 1.webp" alt="Sonny Boy">
-        <h3>Sonny Boy</h3>
-      </div>
-      <div class="anime-card">
-        <img src="../Images\One piece 1.jpeg" alt="One Piece">
-        <h3>One Piece</h3>
-      </div>
-      <div class="anime-card">
-        <img src="../Images\JJK 1.webp" alt="Jujutsu Kaisen">
-        <h3>Jujutsu Kaisen</h3>
+      <div class="anime-info">
+        <h2>La ligne verte</h2>
+        <div class="star-rating-static" data-rating="5"></div>
+        <p class="synopsis">
+            Dans une prison du sud des États-Unis dans les années 1930, un gardien du couloir de la mort découvre qu'un détenu condamné possède 
+            un mystérieux pouvoir de guérison. Ce don bouleversera profondément ses convictions sur la justice, la foi et l'humanité.<br><br>
+          <span class="legend">Adapté du roman de Stephen King, réalisé par Frank Darabont.</span>
+        </p>
+  
+        <div class="episode-list">
+          <div class="episode-card">
+            <img src="../Images/Laligneverte ep1.jpg" alt="Film">
+            <div class="play-icon">▶</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-</body>
+  
 
+  
   <footer>
     © 2025 YokoFilms. Tous droits réservés.
   </footer>
@@ -67,8 +69,7 @@
       }, 3000); // 3 secondes de chargement simulé
     });
   </script>
-  
-</body>
-</html>
 
+  <script src="../js/stars.js"></script>
+</body>
 </html>
