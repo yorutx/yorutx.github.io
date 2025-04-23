@@ -20,7 +20,7 @@
       <span class="icon">☀️</span>
       <span class="text">Yoko<span class="films">Films</span></span>
     </a> 
-       
+
     <nav>
       <a href="../index.html">Accueil</a>
       <a href="Séries.html">Séries</a>
@@ -28,28 +28,21 @@
     </nav>
   </header>
 
+  <section class="search-section">
+    <input type="search" id="searchInput" placeholder="🔍 Rechercher une série..." />
+  </section>
+
   <section class="anime-section">
     <h2>Catalogue séries</h2>
-    <div class="anime-grid">
-      <div class="anime-card">
-        <a href="arcane.html"><img src="../Images\Arcane 1.jpeg" alt="Arcane"></a>
-        <h3>Arcane</h3>
-      </div>
-      <div class="anime-card">
-        <a href="sonnyboy.html"><img src="../Images/SonnyBoy 1.webp" alt="SonnyBoy"></a>
-        <h3>Sonny Boy</h3>
-      </div>
-      <div class="anime-card">
-        <a href="onepiece.html"><img src="../Images/One piece 1.jpeg" alt="OnePiece"></a>
-        <h3>One Piece</h3>
-      </div>
-      <div class="anime-card">
-        <a href="jjk.html"><img src="../Images\JJK 1.webp" alt="JujutsuKaisen"></a>
-        <h3>Jujutsu Kaisen</h3>
-      </div>
+    <div class="anime-grid" id="animeContainer">
+      <div class="anime-card"><a href="arcane.html"><img src="../Images/Arcane 1.jpeg" alt="Arcane"></a><h3>Arcane</h3></div>
+      <div class="anime-card"><a href="sonnyboy.html"><img src="../Images/SonnyBoy 1.webp" alt="SonnyBoy"></a><h3>Sonny Boy</h3></div>
+      <div class="anime-card"><a href="onepiece.html"><img src="../Images/One piece 1.jpeg" alt="OnePiece"></a><h3>One Piece</h3></div>
+      <div class="anime-card"><a href="jjk.html"><img src="../Images/JJK 1.webp" alt="JujutsuKaisen"></a><h3>Jujutsu Kaisen</h3></div>
     </div>
   </section>
-</body>
+
+  <p id="noResultMessage" style="display: none;">Aucune série trouvé 😢</p>
 
   <footer>
     © 2025 YokoFilms. Tous droits réservés.
@@ -67,7 +60,6 @@
     });
   </script>
   
+<script src="../js/search.js"></script>
 </body>
-</html>
-
 </html>

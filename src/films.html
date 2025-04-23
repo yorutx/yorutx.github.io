@@ -28,14 +28,18 @@
     </nav>
   </header>
 
+  <section class="search-section">
+    <input type="search" id="searchInput" placeholder="🔍 Rechercher un films..." />
+  </section>
+
   <section class="anime-section">
     <h2>Catalogue films</h2>
-    <div class="anime-grid">
-      <div class="anime-card">
-        <a href="laligneverte.html"><img src="../Images/Laligneverte 1.jpg" alt="La ligne verte"></a>
-        <h3>La ligne verte</h3></div>
+    <div class="anime-grid" id="animeContainer">
+      <div class="anime-card"><a href="laligneverte.html"><img src="../Images/Laligneverte 1.jpg" alt="La ligne verte"></a><h3>La ligne verte</h3></div>
     </div>
   </section>
+
+  <p id="noResultMessage" style="display: none;">Aucun film trouvé 😢</p>
 
   <footer>
     © 2025 YokoFilms. Tous droits réservés.

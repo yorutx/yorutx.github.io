@@ -114,6 +114,36 @@ nav a {
   padding: 40px 30px;
 }
 
+.search-section {
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+}
+
+/* Search bar version YokoFilms */
+#searchInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: 2px solid #ff9900;
+  border-radius: 12px;
+  outline: none;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 153, 0, 0.3);
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#searchInput::placeholder {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+
 .anime-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -126,7 +156,9 @@ nav a {
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
+
 
 .anime-card:hover {
   transform: scale(1.05);
@@ -292,4 +324,28 @@ footer {
 
 .episode-card.big .play-icon {
   font-size: 4rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px;
+}
+
+.search-bar input[type="search"] {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search-bar button {
+  background-color: #ff9900;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
 }
